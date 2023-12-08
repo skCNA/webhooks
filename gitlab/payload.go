@@ -692,6 +692,7 @@ type ObjectAttributes struct {
 	State            string     `json:"state"`
 	StateID          int64      `json:"state_id"`
 	Confidential     bool       `json:"confidential"`
+	DiscussionId     int64      `json:"discussion_id"`
 	DiscussionLocked bool       `json:"discussion_locked"`
 	DueDate          customTime `json:"due_date"`
 	TimeEstimate     int64      `json:"time_estimate"`
